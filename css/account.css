@@ -1,0 +1,124 @@
+.welcome-message {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+/* main */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    gap: 50px;
+    padding: 10px;
+}
+
+.options {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+dd ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+dd ul li {
+    margin-bottom: 5px;
+}
+
+.edit-your-profile {
+    background-color: white;
+    width: 80%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center; 
+}
+
+.edit-your-profile h2 {
+    color: red;
+}
+
+form label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+form input {
+    background-color: rgba(128, 128, 128, 0.162);
+    border: none;
+    box-shadow: none;
+    padding: 12px 32px;
+    width: 100%;
+}
+
+.name,
+.personal-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.input-container input {
+    margin-right: 32px;
+    width: 80%;
+}
+
+.input-container {
+    width: 100%;
+}
+
+.password-changes input {
+    display: block;
+    margin-bottom: 24px;
+    width: 90%;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cancel-btn {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.cancel-btn:hover {
+    text-decoration: underline;
+}
+
+.save-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 4px;
+}
+        

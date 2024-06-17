@@ -1,0 +1,46 @@
+.checkout-breadcrumbs ul {
+    display: flex;
+    gap: 12px;
+    /* justify-content: flex-start; */
+    margin-top: 70px;
+    /* width: auto; */
+}
+
+.checkout-breadcrumbs ul li {
+    color: black;
+    list-style-type: none;
+}
+
+.checkout-breadcrumbs ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 70px;
+}
+
+main h2 {
+    font-size: 44px;
+}
+
+.main-container {
+    display: flex;
+    width: 90%;
+    gap: 173px;
+}
+
+.billing-details {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 90%;
+}
+
+.billing-details input {
+    background-color: rgba(128, 128, 128, 0.333);
+    border: none;
+    padding: 12px 32px;
+    border-radius: 5px;
+    width: 100%;
+}

@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    /* margin: 70px 0; */
+    gap: 32px;
+    padding: 10px;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh; 
+}
+
+.image img {
+    width: 805px;
+    height: 781px;
+    object-fit: cover;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px; 
+    padding: 20px;
+}
+
+.form h2 {
+    font-size: 36px;
+}
+
+.form input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 32px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form button:not(.login-btn) {
+    display: block;
+    width: 100%;
+    margin-bottom: 32px;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+.create-account {
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.google-sign-up {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; 
+    padding: 12px 16px;
+}
+
+.google-sign-up img {
+    width: 20px; 
+    height: 20px;
+    margin-right: 8px;
+}
+
+.more-option {
+    display: flex;
+    gap: 12px;
+    align-items: center; 
+}
+
+.login a {
+    color: black;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    width: 50%;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+.more-option p a {
+    color: red;
+}
