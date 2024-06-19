@@ -1,55 +1,19 @@
-import { displayProduct } from "./main.js";
+import { displayProduct, fetchData } from "./main.js";
 
 let productCardTemplate = document.querySelector('#productCardTemplate');
 let productAppender  = document.querySelector('.product-container');
 let localData = JSON.parse(localStorage.getItem('mycart')) || []
 console.log(productAppender);
-let myProducts = [{
-    productDiscount:20,
-    productImage:'img/product-game-console.png',
-    productBrand:'ipad',
-    productPrice:20,
-    productActualPrice:30,
-    productRating:5,
-    quantity:1,
-    maxQuantity:10,
-    id:1
-},
-{
-    productDiscount:20,
-    productImage:'img/product-game-console.png',
-    productBrand:'samsung',
-    productPrice:20,
-    productActualPrice:30,
-    productRating:5,
-    quantity:1,
-    maxQuantity:10,
-    id:2
-},
-{
-    productDiscount:20,
-    productImage:'img/product-game-console.png',
-    productBrand:'samsung',
-    productPrice:20,
-    productActualPrice:30,
-    productRating:5,
-    quantity:1,
-    maxQuantity:10,
-    id:3
-},
-{
-    productDiscount:20,
-    productImage:'img/product-game-console.png',
-    productBrand:'samsung',
-    productPrice:20,
-    productActualPrice:30,
-    productRating:5,
-    quantity:1,
-    maxQuantity:10,
-    id:4
-}]
-
-
+let Products =[]
+// console.log(Products);
+let myProducts  = []
+  fetchData.then((res)=>{
+    myProducts = res.products
+    console.log(res.products);
+}).then((err)=>{
+    console.log(err);
+})
+console.log(myProducts);
 
 
 function cartItem (item){

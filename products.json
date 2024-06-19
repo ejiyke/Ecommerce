@@ -1,0 +1,137 @@
+{
+    "products": [
+      {
+        "productDiscount":20,
+        "productBrand": "The North Coat",
+        "productPrice": "$260",
+        "productActualPrice": "$360",
+        "productRating": 4,
+        "productImage": "img/product-game-console.png",
+        "quantity": 1,
+        "maxQuantity": 10,
+        "id": 1
+      },
+      {
+        "productDiscount":20,
+        "productBrand": "Gucci Duffle Bag",
+        "productPrice": "$1950",
+        "productActualPrice": "$1950",
+        "productRating": 5,
+        "productImage": "img/product-game-console.png",
+        "quantity": 1,
+        "maxQuantity": 10,
+        "id": 1
+      },
+      {
+        "productDiscount":20,
+        "productBrand": "RGB Liquid CPU Cooler",
+        "productPrice": "$160",
+        "productActualPrice": "$170",
+        "productRating": 4,
+        "productImage": "img/product-game-console.png",
+        "quantity": 1,
+        "maxQuantity": 10,
+        "id": 1
+      },
+      {
+        "productDiscount":20,
+        "productBrand": "Small Bookshelf",
+        "productPrice": "$360",
+        "productActualPrice": "$360",
+        "productRating": 4,
+        "productImage": "img/product-game-console.png",
+        "quantity": 1,
+        "maxQuantity": 10,
+        "id": 1
+      },
+      {
+        "productDiscount":20,
+        "productBrand": "Smart Dog Food",
+        "productPrice": "$50",
+        "productActualPrice": "$60",
+        "productRating": 4,
+        "productImage": "img/product-game-console.png",
+        "quantity": 1,
+        "maxQuantity": 10,
+        "id": 1
+      },
+      {
+        "productDiscount":20,
+        "productBrand": "Canon EOS DSLR Camera",
+        "productPrice": "$750",
+        "productActualPrice": "$850",
+        "productRating": 4,
+        "productImage": "img/product-game-console.png",
+        "quantity": 1,
+        "maxQuantity": 10,
+        "id": 1
+      },
+      {
+        "productDiscount":20,
+        "productBrand": "ASUS ROG Gaming Laptop",
+        "productPrice": "$1250",
+        "productActualPrice": "$1450",
+        "productRating": 4,
+        "productImage": "img/product-game-console.png",
+        "quantity": 1,
+        "maxQuantity": 10,
+        "id": 1
+      },
+      {
+        "productDiscount":20,
+        "productBrand": "Cosmetics Product Set",
+        "productPrice": "$120",
+        "productActualPrice": "$150",
+        "productRating": 5,
+        "productImage": "img/product-game-console.png",
+        "quantity": 1,
+        "maxQuantity": 10,
+        "id": 1
+      },
+      {
+        "productDiscount":20,
+        "productBrand": "Kids Electric Car",
+        "productPrice": "$300",
+        "productActualPrice": "$350",
+        "productRating": 4,
+        "productImage": "img/product-game-console.png",
+        "quantity": 1,
+        "maxQuantity": 10,
+        "id": 1
+      },
+      {
+        "productDiscount":20,
+        "productBrand": "JR Zoom Soccer Cleats",
+        "productPrice": "$150",
+        "productActualPrice": "$170",
+        "productRating": 4,
+        "productImage": "img/product-game-console.png",
+        "quantity": 1,
+        "maxQuantity": 10,
+        "id": 1
+      },
+      {
+        "productDiscount":20,
+        "productBrand": "DPI iPhone VR Gamepad",
+        "productPrice": "$260",
+        "productActualPrice": "$360",
+        "productRating": 4,
+        "productImage": "img/product-game-console.png",
+        "quantity": 1,
+        "maxQuantity": 10,
+        "id": 1
+      },
+      {
+        "productDiscount":20,
+        "productBrand": "Quilted Satin Jacket",
+        "productPrice": "$260",
+        "productActualPrice": "$360",
+        "productRating": 4,
+        "productImage": "img/product-game-console.png",
+        "quantity": 1,
+        "maxQuantity": 10,
+        "id": 1
+      }
+    ]
+  }
+  

@@ -14,3 +14,27 @@ export function displayProduct(templateElement,datas) {
     return {productTempate,datas,cardBtn}
 }   
 
+
+export const fetchData = new Promise(async (resolve, reject) => {
+    const res = await fetch("products.json",{
+        method:'GET',
+
+    })
+
+   if (res.ok) {
+        resolve(await res.json())
+   }else{
+    reject("no message")
+   }
+
+})
+
+export async function fetchSingle (url,id){
+    const res = await fetch(url+"?"+id,{
+        method:'GET'
+    })
+
+    const json = await res.json()
+
+    return {json}
+}
